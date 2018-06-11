@@ -1,0 +1,228 @@
+@font-face{
+    font-family:'ZonaPro-Regular';
+    src:url(../fonts/ZonaPro-Regular/ZonaPro-Regular-webfont.eot);
+    src:url(../fonts/ZonaPro-Regular/ZonaPro-Regular-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/ZonaPro-Regular/ZonaPro-Regular-webfont.woff2) format('woff2'),url(../fonts/ZonaPro-Regular/ZonaPro-Regular-webfont.woff) format('woff'),url(../fonts/ZonaPro-Regular/ZonaPro-Regular-webfont.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:'ZonaPro-Bold';
+    src:url(../fonts/ZonaPro-Bold/ZonaPro-SemiBold-webfont.eot);
+    src:url(../fonts/ZonaPro-Bold/ZonaPro-SemiBold-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/ZonaPro-Bold/ZonaPro-SemiBold-webfont.woff2) format('woff2'),url(../fonts/ZonaPro-Bold/ZonaPro-SemiBold-webfont.woff) format('woff'),url(../fonts/ZonaPro-Bold/ZonaPro-SemiBold-webfont.ttf) format('truetype');
+    font-weight:600;
+    font-style:normal;
+}
+html, body {
+	margin: 0;
+	padding; 0;
+}
+.wrapper{
+	background: url(../img/bg_company.jpg) center 0 no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo-wrapper {
+    background-color: #f8f8f8;
+    margin-bottom: 80px;
+}
+.logo-img {
+	display: block;
+	height: 40px;
+	width: 130px;
+	background: url(../img/logo_desktop.svg) 
+	no-repeat;
+	background-size: cover;
+
+	padding: 10px;
+	/*float:right;
+	border: 1px solid red;
+	position: absolute;
+    
+    
+	
+right: 0;*/
+	
+}
+.logo-bottom-line {
+	height: 4px;
+	background-image: linear-gradient(to right,#e97531 0,#e97531 35%,#eba83e 35%,#eba83e 65%,#e97531 65%,#e97531 100%);
+}
+
+.vacancy-name {
+    display:block;
+    font:36px 'ZonaPro-Bold',sans-serif;
+
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #fe9152;
+    /*color: white;*/
+    text-align: center;
+    padding:0 10px;
+    text-shadow: 0 1px 0 rgba(184,83,23,.75);
+}
+.wrapper .about{
+    background-color: white;
+    padding: 20px 10px 0 25px;
+    border-bottom: 1px solid #f6ae7b;
+}
+
+
+.aboutPJ{
+     background: url(../img/bg_paralax_perfomance.png) center 0 no-repeat #fef1e9;
+    border-bottom: 1px solid #f6ae7b;
+
+}
+.aboutPJ p {
+    font-family:'ZonaPro-Regular', sans-serif;
+    font-size:  16px;
+   
+   
+    line-height: 25px;
+    color: #333; 
+}
+.about h3{
+    font-family:'ZonaPro-Bold', sans-serif; 
+    color: #fe9152;
+    font-size: 25px;
+}
+.w-s{
+
+        background: url(../img/bg_paralax_perfomance.png) center 0 no-repeat #fe9152    ;
+
+
+           /* margin-bottom: 60px;*/
+            overflow: hidden;
+            border-bottom: 1px solid #f6ae7b;
+}
+
+.skills {
+    display:flex;
+    
+       
+    border-bottom: 1px solid #f5af42;
+}
+.waiting, .plus { 
+   
+  width:50%;
+   
+    
+    background-color: #fef1ea;
+
+    margin: 20px ;
+
+    border-radius: 4px;
+    
+  
+    
+}
+
+.waiting h3, .plus h3 {
+   margin:0;
+   font-family:'ZonaPro-Regular', sans-serif;
+    font-size: 24px;
+    color: #583a2a;
+    padding: 20px;
+ overflow: hidden;
+
+    
+    
+}
+.waiting-label, .plus-label {
+    
+
+    width: 100%;
+  
+
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    
+}
+.waiting .col-l, .plus .col-r{
+  
+    /*margin-bottom: 120px;
+    border: 2px solid #fe9152;
+    padding: 21px 3% 0;*/
+       
+   /* background-color: #fef1ea;*/
+    border-radius: 4px;
+}
+.waiting ul, .plus ul {
+     font: 16px 'ZonaPro-Regular', sans-serif;
+
+
+}
+.waiting ul li, .plus ul li{
+      
+
+    line-height:24px;
+    padding-bottom: 5px;
+    list-style-type: square; 
+   
+} 
+
+.benefits{
+     background: url(../img/bg_paralax_perfomance.png) center 0 no-repeat fixed;
+   
+    background-color: white;
+	font-family: 'ZonaPro-Regular',sans-serif;
+      /*  margin-bottom:40px;*/
+    border-bottom: 1px solid #f6ae7b;
+    /* border-top: 1px solid transparent;*/
+}
+.benefits h3{
+   
+    font-family: 'ZonaPro-Bold',sans-serif;
+    font-size: 25px;
+        color: #fe9152;
+  
+    margin: 0 0 20px 20px;
+}
+.benefit-container{
+     padding-top: 20px;
+    
+
+}
+.benefit-container-list{
+    margin: 0 0 25px;
+    font: 16px 'ZonaPro-Bold',sans-serif;
+    line-height: 1.5;
+    color: #333;
+
+}
+
+.benefit-container-list li {
+list-style-type: square;    
+}
+
+.location{
+     background: url(../img/bg_papallax_map.jpg) no-repeat ;
+    background-size: cover;
+   
+}
+.location-map{
+ 
+       text-align: right;
+  
+  
+}
+.location-map .location-name{
+
+display: inline-block;
+
+    font: 18px 'ZonaPro-Regular',sans-serif;
+    color: #fe9152;
+     margin:5px;
+
+    
+}
+.location-map .location-addr {
+   display: inline-block;
+
+    font: 14px 'ZonaPro-Regular',sans-serif;
+    text-align:right;
+padding-right: 10px;
+    color:black;
+    margin:0; 
+}
+
+
